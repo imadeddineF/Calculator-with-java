@@ -1,3 +1,3 @@
-public class Soustraction {
+public class Soustraction extends OperationBinaire {
   
 }

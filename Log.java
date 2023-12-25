@@ -1,3 +1,3 @@
-public class Log {
+public class Log extends OperationUnaire {
   
 }

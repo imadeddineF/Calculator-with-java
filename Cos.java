@@ -1,3 +1,3 @@
-public class Cos {
+public class Cos extends OperationUnaire {
   
 }

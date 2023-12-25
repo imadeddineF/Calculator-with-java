@@ -1,3 +1,3 @@
-public class Sin {
+public class Sin extends OperationUnaire {
   
 }

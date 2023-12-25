@@ -1,3 +1,3 @@
-public abstract class OperationUnaire {
+public abstract class OperationUnaire implements CalculMath {
   
 }

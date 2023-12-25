@@ -1,3 +1,3 @@
-public class Sqrt {
+public class Sqrt extends OperationUnaire {
   
 }

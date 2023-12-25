@@ -1,3 +1,3 @@
-public class Division {
+public class Division extends OperationBinaire {
   
 }

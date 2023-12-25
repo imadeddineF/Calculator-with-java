@@ -1,3 +1,3 @@
-public class Exp {
+public class Exp extends OperationUnaire {
   
 }
