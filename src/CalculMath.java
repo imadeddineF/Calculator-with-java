@@ -1,4 +1,4 @@
 package src;
 public interface CalculMath {
-  double calculer();
+  public double calculer();
 }

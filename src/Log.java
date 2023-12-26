@@ -6,6 +6,9 @@ public class Log extends OperationUnaire {
   
   @Override
   public double calculer() {
-    return Math.log(valeur);
+    if (getValeur() <= 0) {
+      throw new ArithmeticException("You can't log negative number or 0!");
+    }
+    return Math.log(getValeur());
   }
 }

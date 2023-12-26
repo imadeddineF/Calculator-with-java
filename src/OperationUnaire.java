@@ -1,8 +1,14 @@
 package src;
 public abstract class OperationUnaire implements CalculMath {
-  protected double valeur;
+  private double valeur;
+  public double getValeur() {
+    return valeur;
+  }
+  public void setValeur(double valeur) {
+    this.valeur = valeur;
+  }
 
   public OperationUnaire(double valeur) {
-    this.valeur = valeur;
+    setValeur(valeur);
   }
 }
