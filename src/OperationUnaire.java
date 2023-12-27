@@ -1,6 +1,7 @@
 package src;
 public abstract class OperationUnaire implements CalculMath {
   private double valeur;
+  
   public double getValeur() {
     return valeur;
   }

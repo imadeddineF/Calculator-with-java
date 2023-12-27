@@ -7,7 +7,7 @@ public class Division extends OperationBinaire {
   @Override
   public double calculer() {
     if (getValeur2() == 0) {
-      throw new ArithmeticException("You can't devide by 0!");
+      throw new ArithmeticException("La division par zéro est impossible !");
     }
     return getValeur1() / getValeur2();
   }

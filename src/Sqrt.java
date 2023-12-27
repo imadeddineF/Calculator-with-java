@@ -7,7 +7,7 @@ public class Sqrt extends OperationUnaire {
   @Override
   public double calculer() {
     if (getValeur() < 0) {
-      throw new ArithmeticException("You can't sqrt negative number!");
+      throw new ArithmeticException("Il est impossible de calculer la racine carrée d'un nombre négatif !");
     }
     return Math.sqrt(getValeur());
   }
