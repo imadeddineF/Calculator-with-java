@@ -6,7 +6,7 @@ public abstract class OperationUnaire implements CalculMath {
     return valeur;
   }
   public void setValeur(double valeur) {
-    this.valeur = valeur;
+    this.valeur = valeur; 
   }
 
   public OperationUnaire(double valeur) {

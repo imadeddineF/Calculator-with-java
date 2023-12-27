@@ -6,8 +6,10 @@ public class Log extends OperationUnaire {
   
   @Override
   public double calculer() {
-    if (getValeur() <= 0) {
-      throw new ArithmeticException("Il est impossible de calculer le log d'un nombre négatif ou de 0 !");
+    if (getValeur() < 0) {
+      throw new ArithmeticException("Il est impossible de calculer le log d'un nombre négatif !");
+    } else if (getValeur() == 0) {
+      throw new ArithmeticException("Il est impossible de calculer le log d'un 0 !");
     }
     return Math.log(getValeur());
   }

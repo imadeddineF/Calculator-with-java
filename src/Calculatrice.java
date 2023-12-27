@@ -7,15 +7,15 @@ public static void main(String[] args) {
   System.out.println("\n╔═══════════════════════════╗");
   System.out.println("║      Les opérations       ║");
   System.out.println("╠═══════════════════════════╣");
-  System.out.println("║ 1. Addition               ║");
-  System.out.println("║ 2. Soustraction           ║");
-  System.out.println("║ 3. Multiplication         ║");
-  System.out.println("║ 4. Division               ║");
-  System.out.println("║ 5. Sinus                  ║");
-  System.out.println("║ 6. Cosinus                ║");
-  System.out.println("║ 7. Logarithme             ║");
-  System.out.println("║ 8. Exponentielle          ║");
-  System.out.println("║ 9. Racine carrée          ║");
+  System.out.println("║ 1/- Addition               ║");
+  System.out.println("║ 2/- Soustraction           ║");
+  System.out.println("║ 3/- Multiplication         ║");
+  System.out.println("║ 4/- Division               ║");
+  System.out.println("║ 5/- Sinus                  ║");
+  System.out.println("║ 6/- Cosinus                ║");
+  System.out.println("║ 7/- Logarithme             ║");
+  System.out.println("║ 8/- Exponentielle          ║");
+  System.out.println("║ 9/- Racine carrée          ║");
   System.out.println("╚═══════════════════════════╝\n");
 
   System.out.print("Choisissez une opération (1-9) : ");
@@ -55,9 +55,9 @@ public static void main(String[] args) {
       System.out.println("║ Résultat : " + resultat);
       System.out.println("╚═══════════════════════════════════╝");
     } catch (ArithmeticException e) {
-      System.out.println("\n\033[1;31m╔═════════════════════════════════════════════╗");
+      System.out.println("\n\033[1;31m╔═══════════════════════════════════════════════════════════════════════════════╗");
       System.out.println("║ Erreur : " + e.getMessage());
-      System.out.println("╚═════════════════════════════════════════════╝");
+      System.out.println("╚═══════════════════════════════════════════════════════════════════════════════╝");
     }
   }
 
